@@ -8,6 +8,17 @@
     margin-right: 0 ;
    
 }
+
+#contact {
+    min-height: 500px;
+    scroll-margin-top: 100px; /* To prevent overlap with fixed header */
+  }
+
+  section {
+    scroll-margin-top: 100px;
+  }
+
+
 body{
     padding-top: 100px;
     background-color: rgba(82, 2, 60, 0.948);
