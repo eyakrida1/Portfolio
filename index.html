@@ -221,6 +221,18 @@ window.addEventListener("scroll", () => {
 
 
 
+<script>
+    // Only apply this for mobile devices
+    if (window.innerWidth <= 768) {
+      document.querySelectorAll('.project-card img').forEach(img => {
+        img.addEventListener('click', () => {
+          const card = img.closest('.project-card');
+          card.classList.toggle('show');
+        });
+      });
+    }
+  </script>
+
     </body>
     <footer>
         <p class="copyright">&copy;Eya Krida <br/>  
