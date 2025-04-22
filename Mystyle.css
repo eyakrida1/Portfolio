@@ -301,3 +301,239 @@ footer{
     margin-bottom: 100px;
     margin-left: 50px;
 }
+
+
+/*newwwwwwwwwwwwwwwwww*/
+
+
+
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+
+  .accueil{
+    height: 300px;
+  }
+  .accueil .buttons{
+    margin-top: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    gap: 40px;
+
+  }
+
+  .skills-section #domaines h3{
+    font-size: 21px;
+  }
+
+  .skills-section #domaines p{
+    font-size: 15px;
+  }
+
+  .skills-section #domaines #web{
+    margin-bottom: 25px;
+  }
+
+  .skills-section #domaines #datascience{
+    margin-bottom: 25px;
+  }
+
+  .skills-section #domaines #software{
+    margin-bottom: 10px;
+  }
+
+  .accueil #social_media{
+    margin-top: 5px;
+  }
+
+  #projects #h1 h1{
+    font-size: 35px;
+  }
+
+  #projects #main .project-card img{
+    height: 120px;
+    
+  }
+
+  #projects #main .project-card h3{
+    font-size: 15px;
+  }
+  #projects #main .project-card p{
+    font-size: 8px;
+  }
+
+
+  #contact #content .card{
+    width: 170px;
+    height: 110px;
+
+  }
+
+  .accueil #social_media img{
+    width: 0px;
+    height: 0px;
+    margin-right: 350px;
+  }
+
+  .logo-img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo{
+    font-size: 15px;
+  }
+  #logo{
+    margin-bottom: 12px;
+    margin-right:280px;
+  }
+
+  header #navbar a{
+    font-size: 13px;
+    
+  }
+  header #navbar{
+    margin-bottom: 5px;
+
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column-reverse; /* this makes text come before image */
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent; /* optional: remove if it's causing blockiness */
+    padding: 0;
+    margin: 0;
+  }
+
+  #navbar a {
+    padding: 8px 10px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+
+  .main {
+
+    flex-direction: column-reverse; /* Inverse l'ordre des éléments */
+    align-items: center; /* Centrer les éléments */
+    text-align: center; /* Centrer le texte */
+  }
+
+  .main #mee {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 20px;
+    max-width: 150px;
+    
+  }
+
+  .accueil {
+    margin: 0;
+    padding: 0 10px;
+    align-items: center;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .content h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .content p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .buttons a {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  #social_media {
+    justify-content: center;
+    width: 100%;
+  }
+
+  #social_media a img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #projects #main {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .project-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .project-card img {
+    height: 200px;
+  }
+
+  #domaines {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  #domaines #datascience,
+  #domaines #web {
+    margin-left: 0;
+  }
+
+  .skills-section h2 {
+    font-size: 2em;
+  }
+
+  #contact #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  footer {
+    text-align: center;
+    margin: 50px 0;
+    margin-left: 0;
+  }
+}

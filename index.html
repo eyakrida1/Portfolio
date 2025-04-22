@@ -26,9 +26,9 @@
             
         </header>
         
-        <section class="main">
-            <img src="eyaa.jpg" id="mee">
-            <section class="accueil">
+        <section class="main" class="about-container">
+            <img src="eyaa.jpg" id="mee" class="about-photo">
+            <section class="accueil" class="about-text">
                 <div class="content">
                     <h1>Hi ! I am Eya </h1>
                     <h3>Welcome to my portfolio</h3>
@@ -198,6 +198,29 @@ window.addEventListener("scroll", () => {
   });
 });
 </script>
+
+
+    <script>
+  let lastScrollTop = 0;
+  const navbar = document.querySelector("header");
+
+  window.addEventListener("scroll", () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+      // Vers le bas → cacher navbar
+      navbar.style.top = "-100px";
+    } else {
+      // Vers le haut → afficher navbar
+      navbar.style.top = "0";
+    }
+
+    lastScrollTop = scrollTop;
+  });
+</script>
+
+
+
     </body>
     <footer>
         <p class="copyright">&copy;Eya Krida <br/>  
